@@ -1,0 +1,298 @@
+[
+    {
+        "candidate_id": "C001",
+        "name": "Nithya Reddy",
+        "email": "nithya.reddy@gmail.com",
+        "phone": "+91 99806 75432",
+        "current_company": "ABC Technologies",
+        "title": "Software Engineer",
+        "skills": [
+            "Python",
+            "Java",
+            "SQL",
+            "Flask",
+            "Machine Learning",
+            "Git",
+            "Pandas",
+            "Docker",
+            "Aws"
+        ],
+        "location": "Bengaluru",
+        "bio": "Computer Science Engineer interested in AI, Data Engineering and Cloud.",
+        "github_name": "Nithya S Reddy",
+        "github_location": "Bengaluru",
+        "full_name": "Nithya Reddy",
+        "emails": [
+            "nithya.reddy@gmail.com"
+        ],
+        "phones": [
+            "+91 99806 75432"
+        ],
+        "links": {
+            "github": "https://github.com/nithyareddy",
+            "linkedin": "https://www.linkedin.com/in/nithyareddy",
+            "portfolio": "https://nithyareddy.dev",
+            "other": "https://medium.com/@nithyareddy"
+        },
+        "headline": "Software Engineer",
+        "years_experience": 2,
+        "experience": [
+            {
+                "company": "ABC Technologies",
+                "title": "Software Engineer",
+                "start": "2024-01",
+                "end": "Present",
+                "summary": "Worked on software development and project tasks."
+            }
+        ],
+        "education": [
+            {
+                "institution": "XYZ University",
+                "degree": "Bachelor of Engineering",
+                "field": "Computer Science",
+                "end_year": 2026
+            }
+        ],
+        "confidence": 100,
+        "provenance": {
+            "name": "Recruiter CSV",
+            "email": "Recruiter CSV",
+            "phone": "Recruiter CSV",
+            "skills": "Recruiter CSV + GitHub",
+            "bio": "GitHub",
+            "github_name": "GitHub",
+            "github_location": "GitHub"
+        }
+    },
+    {
+        "candidate_id": "C002",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@gmail.com",
+        "phone": "+91 98765 43210",
+        "current_company": "XYZ Solutions",
+        "title": "Data Analyst",
+        "skills": [
+            "Python",
+            "Excel",
+            "SQL",
+            "Power Bi",
+            "Numpy",
+            "Statistics",
+            "Git"
+        ],
+        "location": "Hyderabad",
+        "bio": "Experienced Data Analyst working with Python and SQL.",
+        "github_name": "Rahul Sharma",
+        "github_location": "Hyderabad",
+        "full_name": "Rahul Sharma",
+        "emails": [
+            "rahul.sharma@gmail.com"
+        ],
+        "phones": [
+            "+91 98765 43210"
+        ],
+        "links": {
+            "github": "https://github.com/rahulsharma",
+            "linkedin": "https://www.linkedin.com/in/rahulsharma",
+            "portfolio": "https://rahulsharma.dev",
+            "other": "https://medium.com/@rahulsharma"
+        },
+        "headline": "Data Analyst",
+        "years_experience": 2,
+        "experience": [
+            {
+                "company": "XYZ Solutions",
+                "title": "Data Analyst",
+                "start": "2024-01",
+                "end": "Present",
+                "summary": "Worked on software development and project tasks."
+            }
+        ],
+        "education": [
+            {
+                "institution": "XYZ University",
+                "degree": "Bachelor of Engineering",
+                "field": "Computer Science",
+                "end_year": 2026
+            }
+        ],
+        "confidence": 95,
+        "provenance": {
+            "name": "Recruiter CSV",
+            "email": "Recruiter CSV",
+            "phone": "Recruiter CSV",
+            "skills": "Recruiter CSV + GitHub",
+            "bio": "GitHub",
+            "github_name": "GitHub",
+            "github_location": "GitHub"
+        }
+    },
+    {
+        "candidate_id": "C003",
+        "name": "Priya Nair",
+        "email": "priya.nair@gmail.com",
+        "phone": "+91 91234 56789",
+        "current_company": "TechNova",
+        "title": "Backend Developer",
+        "skills": [
+            "Python",
+            "Django",
+            "Rest Api",
+            "Git",
+            "Docker",
+            "Postgresql"
+        ],
+        "location": "Chennai",
+        "bio": "",
+        "github_name": "Priya Nair",
+        "github_location": "",
+        "full_name": "Priya Nair",
+        "emails": [
+            "priya.nair@gmail.com"
+        ],
+        "phones": [
+            "+91 91234 56789"
+        ],
+        "links": {
+            "github": "https://github.com/priyanair",
+            "linkedin": "https://www.linkedin.com/in/priyanair",
+            "portfolio": "https://priyanair.dev",
+            "other": "https://medium.com/@priyanair"
+        },
+        "headline": "Backend Developer",
+        "years_experience": 2,
+        "experience": [
+            {
+                "company": "TechNova",
+                "title": "Backend Developer",
+                "start": "2024-01",
+                "end": "Present",
+                "summary": "Worked on software development and project tasks."
+            }
+        ],
+        "education": [
+            {
+                "institution": "XYZ University",
+                "degree": "Bachelor of Engineering",
+                "field": "Computer Science",
+                "end_year": 2026
+            }
+        ],
+        "confidence": 70,
+        "provenance": {
+            "name": "Recruiter CSV",
+            "email": "Recruiter CSV",
+            "phone": "Recruiter CSV",
+            "skills": "Recruiter CSV + GitHub",
+            "github_name": "GitHub"
+        }
+    },
+    {
+        "candidate_id": "C004",
+        "name": "Arjun Patel",
+        "email": "arjun.patel@gmail.com",
+        "phone": "",
+        "current_company": "CloudTech",
+        "title": "Cloud Engineer",
+        "skills": [
+            "Aws",
+            "Docker",
+            "Kubernetes",
+            "Terraform",
+            "Linux"
+        ],
+        "location": null,
+        "bio": "Cloud Engineer specializing in AWS and Kubernetes.",
+        "github_name": "Arjun Patel",
+        "github_location": "Pune",
+        "full_name": "Arjun Patel",
+        "emails": [
+            "arjun.patel@gmail.com"
+        ],
+        "phones": [],
+        "links": {
+            "github": "https://github.com/arjunpatel",
+            "linkedin": "https://www.linkedin.com/in/arjunpatel",
+            "portfolio": "https://arjunpatel.dev",
+            "other": "https://medium.com/@arjunpatel"
+        },
+        "headline": "Cloud Engineer",
+        "years_experience": 2,
+        "experience": [
+            {
+                "company": "CloudTech",
+                "title": "Cloud Engineer",
+                "start": "2024-01",
+                "end": "Present",
+                "summary": "Worked on software development and project tasks."
+            }
+        ],
+        "education": [
+            {
+                "institution": "XYZ University",
+                "degree": "Bachelor of Engineering",
+                "field": "Computer Science",
+                "end_year": 2026
+            }
+        ],
+        "confidence": 85,
+        "provenance": {
+            "name": "Recruiter CSV",
+            "email": "Recruiter CSV",
+            "skills": "Recruiter CSV + GitHub",
+            "bio": "GitHub",
+            "github_name": "GitHub",
+            "github_location": "GitHub"
+        }
+    },
+    {
+        "candidate_id": "C005",
+        "name": "Sneha Verma",
+        "email": "",
+        "phone": "",
+        "current_company": null,
+        "title": null,
+        "skills": [
+            "Java",
+            "Spring Boot"
+        ],
+        "location": null,
+        "bio": "",
+        "github_name": "Sneha Verma",
+        "github_location": "",
+        "full_name": "Sneha Verma",
+        "emails": [],
+        "phones": [],
+        "links": {
+            "github": "https://github.com/snehaverma",
+            "linkedin": "https://www.linkedin.com/in/snehaverma",
+            "portfolio": "https://snehaverma.dev",
+            "other": "https://medium.com/@snehaverma"
+        },
+        "headline": null,
+        "years_experience": 2,
+        "experience": [
+            {
+                "company": NaN,
+                "title": NaN,
+                "start": "2024-01",
+                "end": "Present",
+                "summary": "Worked on software development and project tasks."
+            }
+        ],
+        "education": [
+            {
+                "institution": "XYZ University",
+                "degree": "Bachelor of Engineering",
+                "field": "Computer Science",
+                "end_year": 2026
+            }
+        ],
+        "confidence": 45,
+        "provenance": {
+            "name": "Recruiter CSV",
+            "skills": "Recruiter CSV + GitHub",
+            "github_name": "GitHub"
+        }
+    }
+]

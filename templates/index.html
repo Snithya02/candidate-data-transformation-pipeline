@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Candidate Transformer</title>
+</head>
+
+<body>
+
+    <h1>Candidate Transformer</h1>
+
+    <form action="/transform" method="POST" enctype="multipart/form-data">
+
+        <p><b>Recruiter CSV</b></p>
+        <input type="file" name="csv_file" required>
+
+        <br><br>
+
+        <p><b>GitHub JSON</b></p>
+        <input type="file" name="github_file" required>
+
+        <br><br>
+
+        <button type="submit">
+            Transform Candidate
+        </button>
+
+    </form>
+
+</body>
+
+</html>

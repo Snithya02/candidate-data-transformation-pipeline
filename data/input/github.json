@@ -1,0 +1,67 @@
+[
+    {
+        "candidate_id": "C001",
+        "name": "Nithya S Reddy",
+        "email": "nithya.reddy@gmail.com",
+        "bio": "Computer Science Engineer interested in AI, Data Engineering and Cloud.",
+        "skills": [
+            "Machine Learning",
+            "Git",
+            "Pandas",
+            "Docker",
+            "AWS"
+        ],
+        "location": "Bengaluru"
+    },
+
+    {
+        "candidate_id": "C002",
+        "name": "Rahul Sharma",
+        "email": "rahul.sharma@gmail.com",
+        "bio": "Experienced Data Analyst working with Python and SQL.",
+        "skills": [
+            "Power BI",
+            "NumPy",
+            "Statistics",
+            "Git"
+        ],
+        "location": "Hyderabad"
+    },
+
+    {
+        "candidate_id": "C003",
+        "name": "Priya Nair",
+        "email": "priya.nair@gmail.com",
+        "bio": "",
+        "skills": [
+            "Git",
+            "Docker",
+            "PostgreSQL"
+        ],
+        "location": ""
+    },
+
+    {
+        "candidate_id": "C004",
+        "name": "Arjun Patel",
+        "email": "arjun.patel@gmail.com",
+        "bio": "Cloud Engineer specializing in AWS and Kubernetes.",
+        "skills": [
+            "Kubernetes",
+            "Terraform",
+            "Linux"
+        ],
+        "location": "Pune"
+    },
+
+    {
+        "candidate_id": "C005",
+        "name": "Sneha Verma",
+        "email": "",
+        "bio": "",
+        "skills": [
+            "Spring Boot"
+        ],
+        "location": ""
+    }
+]

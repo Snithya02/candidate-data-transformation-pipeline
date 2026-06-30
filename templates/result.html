@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Candidate Data Transformation Pipeline</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="header">
+    <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+    <div>
+        <h1>Candidate Data Transformation Pipeline</h1>
+        <p>Standardizing and Transforming Candidate Data</p>
+    </div>
+</div>
+
+<div class="dashboard">
+    <div class="card">
+        <h3>👥 Total Candidates</h3>
+        <p>{{ candidates|length }}</p>
+    </div>
+
+    <div class="card">
+        <h3>✅ Pipeline Status</h3>
+        <p style="color:green;">Completed</p>
+    </div>
+
+    <div class="card">
+        <h3>📄 Output File</h3>
+        <p>JSON</p>
+    </div>
+
+    <div class="card">
+        <h3>📊 Confidence</h3>
+        <p>Calculated</p>
+    </div>
+</div>
+
+<div class="guide">
+<h2>Confidence Score Guide</h2>
+
+<table>
+<tr><th>Score</th><th>Status</th></tr>
+<tr><td>90 - 100</td><td class="high">🟢 High</td></tr>
+<tr><td>70 - 89</td><td class="medium">🟡 Medium</td></tr>
+<tr><td>Below 70</td><td class="low">🔴 Low</td></tr>
+</table>
+
+</div>
+
+<div class="table-container">
+
+<h2 style="margin-bottom:20px;color:#1565c0;">Merged Candidate Profiles</h2>
+
+<table>
+
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Company</th>
+<th>Title</th>
+<th>Skills</th>
+<th>Location</th>
+<th>Confidence</th>
+</tr>
+
+{% for candidate in candidates %}
+
+<tr>
+
+<<td>{{ candidate.candidate_id or "N/A" }}</td>
+<td>{{ candidate.name or "N/A" }}</td>
+<td>{{ candidate.email or "N/A" }}</td>
+<td>{{ candidate.phone or "N/A" }}</td>
+<td>{{ candidate.current_company or "N/A" }}</td>
+<td>{{ candidate.title or "N/A" }}</td>
+
+<td>
+{% if candidate.skills %}
+{{ ", ".join(candidate.skills) }}
+{% else %}
+N/A
+{% endif %}
+</td>
+
+<td>{{ candidate.location or "N/A" }}</td>
+
+<td>
+
+{% if candidate.confidence >= 90 %}
+<span class="high">🟢 {{ candidate.confidence }}%</span>
+{% elif candidate.confidence >= 70 %}
+<span class="medium">🟡 {{ candidate.confidence }}%</span>
+{% else %}
+<span class="low">🔴 {{ candidate.confidence }}%</span>
+{% endif %}
+
+</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+
+</div>
+
+<div class="success">
+
+<h2>✅ Transformation Completed Successfully</h2>
+
+<p>
+The recruiter CSV and GitHub JSON files have been successfully parsed,
+normalized, merged, enriched and exported.
+</p>
+
+<p><b>Output File:</b> data/output/final_candidates.json</p>
+
+</div>
+
+<footer>
+
+<hr style="margin:25px 0;">
+
+<p>
+Developed using
+<b>Flask</b> •
+<b>Python</b> •
+<b>Pandas</b> •
+<b>HTML</b> •
+<b>CSS</b>
+</p>
+
+<p>Candidate Data Transformation Pipeline © 2026</p>
+
+</footer>
+
+</body>
+</html>

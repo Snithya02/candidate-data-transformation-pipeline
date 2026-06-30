@@ -1,0 +1,6 @@
+candidate_id,name,email,phone,current_company,title,skills,location
+C001,"Nithya Reddy","nithya.reddy@gmail.com","+91 9980675432","ABC Technologies","Software Engineer","Python, Java, SQL, Flask","Bengaluru"
+C002,"Rahul Sharma","rahul.sharma@gmail.com","9876543210","XYZ Solutions","Data Analyst","Python, Excel, SQL","Hyderabad"
+C003,"Priya Nair","priya.nair@gmail.com","9123456789","TechNova","Backend Developer","Python, Django, REST API","Chennai"
+C004,"Arjun Patel","arjun.patel@gmail.com","","CloudTech","Cloud Engineer","AWS, Docker",""
+C005,"Sneha Verma","","","","","Java",""
